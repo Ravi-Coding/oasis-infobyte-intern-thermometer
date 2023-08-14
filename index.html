@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form class="contenor" onsubmit="main(); return false">
+      <div class="icon">
+        <img
+          src="https://res.cloudinary.com/dcgdrc6me/image/upload/v1691517128/pngtree_high_temperature_summer_sun_blue_hot_summer_image_785793_iqy3tl.jpg"
+          alt=""
+          id="ic"
+        />
+      </div>
+      <label>Temperature Converter</label>
+      <br />
+      <input type="number" id="val" name="temp" />
+      <select name="op" id="op">
+        <option value="celsius">°C</option>
+        <option value="fahrenheit">°F</option>
+      </select>
+      <br />
+      <input type="submit" id="sub" name="temp" />
+      <h1 id="result"></h1>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
